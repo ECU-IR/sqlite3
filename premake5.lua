@@ -1,0 +1,9 @@
+group("libs")
+project("sqlite")
+  uuid("62a33a2a-e334-495c-a7a8-66dd7d775a74")
+  kind("StaticLib")
+  language("C++")
+  files({
+        "sqlite3.c",
+        "sqlite3.h",
+  })
